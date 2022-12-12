@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {}
+    "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {}
   },
   "projects": {
-    "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {
+    "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
+        "projectUniqueName": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
         "projectName": "PATHHEALTHY",
-        "projectPath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
+        "projectPath": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
         "packagesPath": "C:\\Users\\Armando\\.nuget\\packages\\",
-        "outputPath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\obj\\",
+        "outputPath": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Armando\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -73,10 +73,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -85,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
