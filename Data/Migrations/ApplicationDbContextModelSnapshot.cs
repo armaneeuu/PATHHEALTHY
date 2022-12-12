@@ -246,6 +246,43 @@ namespace PATHHEALTHY.Data.Migrations
                     b.ToTable("t_contacto");
                 });
 
+            modelBuilder.Entity("PATHHEALTHY.Models.Producto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("text")
+                        .HasColumnName("Descripcion");
+
+                    b.Property<string>("Estado")
+                        .HasColumnType("text")
+                        .HasColumnName("estado");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("fecha");
+
+                    b.Property<string>("ImagenNombre")
+                        .HasColumnType("text")
+                        .HasColumnName("Imagen");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("text")
+                        .HasColumnName("nombre");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("numeric")
+                        .HasColumnName("precio");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("t_product");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)

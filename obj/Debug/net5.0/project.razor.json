@@ -15654,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\Views\\Catalogo\\Index.cshtml",
+      "TargetPath": "Views\\Catalogo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\Views\\Home\\AboutUS.cshtml",
       "TargetPath": "Views\\Home\\AboutUS.cshtml",
       "FileKind": "mvc"

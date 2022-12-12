@@ -14,5 +14,6 @@ namespace PATHHEALTHY.Data
         {
         }
         public DbSet<PATHHEALTHY.Models.Contacto> DataContactos { get; set;}
+        public DbSet<PATHHEALTHY.Models.Producto> DataProductos { get; set;}
     }
 }

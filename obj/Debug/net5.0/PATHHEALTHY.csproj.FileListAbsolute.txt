@@ -166,3 +166,4 @@ D:\PROYECTO PATH.HEALTHY\PATHHEALTHY\obj\Debug\net5.0\Razor\Areas\Identity\Pages
 D:\PROYECTO PATH.HEALTHY\PATHHEALTHY\obj\Debug\net5.0\Razor\Views\Contacto\Index.cshtml.g.cs
 D:\PROYECTO PATH.HEALTHY\PATHHEALTHY\obj\Debug\net5.0\Razor\Views\Home\AboutUS.cshtml.g.cs
 D:\PROYECTO PATH.HEALTHY\PATHHEALTHY\obj\Debug\net5.0\refint\PATHHEALTHY.dll
+D:\PROYECTO PATH.HEALTHY\PATHHEALTHY\obj\Debug\net5.0\Razor\Views\Catalogo\Index.cshtml.g.cs

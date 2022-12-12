@@ -64,6 +64,24 @@ namespace PATHHEALTHY.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "t_product",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    nombre = table.Column<string>(type: "text", nullable: true),
+                    Imagen = table.Column<string>(type: "text", nullable: true),
+                    precio = table.Column<decimal>(type: "numeric", nullable: false),
+                    Descripcion = table.Column<string>(type: "text", nullable: true),
+                    fecha = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    estado = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_product", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -226,6 +244,9 @@ namespace PATHHEALTHY.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "t_contacto");
+
+            migrationBuilder.DropTable(
+                name: "t_product");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
