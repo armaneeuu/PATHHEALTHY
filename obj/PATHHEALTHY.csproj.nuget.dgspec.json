@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {}
+    "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {
+    "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
+        "projectUniqueName": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
         "projectName": "PATHHEALTHY",
-        "projectPath": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
+        "projectPath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
         "packagesPath": "C:\\Users\\Armando\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\obj\\",
+        "outputPath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Armando\\AppData\\Roaming\\NuGet\\NuGet.Config"

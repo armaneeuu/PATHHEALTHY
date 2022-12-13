@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bl4/tQq9VWucp6BCvAlN6oxrqS3928uj36dyjQuYrLWj5YqaBxiGeotMPvEj3b6qXZ4ryDa5iLM/7g8RREWP8Q==",
+  "dgSpecHash": "GzeMEEri8a05cFltr9+uvpLL+mCN9nft0hdyyUvqDxRx+6A1xzWQ2ahLdKV5p4HhFNTsFaR7675lsyyiwIGX2g==",
   "success": true,
-  "projectFilePath": "D:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
+  "projectFilePath": "d:\\PROYECTO PATH.HEALTHY\\PATHHEALTHY\\PATHHEALTHY.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Armando\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Armando\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
